@@ -1,0 +1,14 @@
+Message:
+  reload: "&a重载成功!"
+  saveMode: "&a您的Trainer储存模式:%mode%"
+  notExist: "&a该Trainer文件不存在哦!"
+  npcCheck: "&a该Trainer的名字是:%name%"
+BeatHandler:
+  #训练师名字
+  Steve:
+    #赢的指令
+    win:
+      - "say %player%好厉害"
+    #输的指令
+    lose:
+      - "say %player%输了鸭"
